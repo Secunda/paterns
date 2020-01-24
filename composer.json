@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Factory\\": "factory/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "^1.5"
+    }
+}
