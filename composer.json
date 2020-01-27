@@ -1,10 +1,11 @@
 {
     "autoload": {
         "psr-4": {
-            "Factory\\": "factory/"
+            "Factory\\": "factory/",
+            "AbstractFactory\\": "abstractFactory/"
         }
     },
     "require": {
-        "mongodb/mongodb": "^1.5"
+        "mongodb/mongodb": "^1.3"
     }
 }
