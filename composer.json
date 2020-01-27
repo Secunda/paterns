@@ -2,7 +2,8 @@
     "autoload": {
         "psr-4": {
             "Factory\\": "factory/",
-            "AbstractFactory\\": "abstractFactory/"
+            "AbstractFactory\\": "abstractFactory/",
+            "Builder\\": "builder/"
         }
     },
     "require": {

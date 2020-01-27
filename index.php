@@ -33,3 +33,11 @@ error_reporting(E_ALL);
 // $dashboardLog = $mongoFactory->dashboardLog();
 // $dashboardLog->setAdapter(new \Factory\Providers\Connectors\MongoConnector());
 // $dashboardLog->log('Dashboard log');
+
+/* BUILDER */
+// $house = new \Builder\SuperHouse();
+// $house->addWalls(4)
+//     ->addWindows(3)
+//     ->addDoors(2);
+
+// echo $house->getHouse();
