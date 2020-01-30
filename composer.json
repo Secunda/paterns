@@ -5,7 +5,8 @@
             "AbstractFactory\\": "abstractFactory/",
             "Builder\\": "builder/",
             "Adapter\\": "adapter/",
-            "Decorator\\": "decorator/"
+            "Decorator\\": "decorator/",
+            "Facade\\": "facade/"
         }
     },
     "require": {

@@ -59,3 +59,7 @@ error_reporting(E_ALL);
 
 // $text = new \Decorator\NoDigitsFilter($originalText);
 // echo $text->formatText($fish) . '<br/>';
+
+/* FACADE */
+// $log = new \Facade\Log();
+// $log->log("q1w2w3e4r4t5y6<b>bold</b>ololo");
