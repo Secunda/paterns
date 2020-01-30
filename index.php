@@ -15,7 +15,6 @@ error_reporting(E_ALL);
 // $mysql->log('Test log');
 
 /* ABSTRACT FACTORY */
-
 // $mysqlFactory = new \AbstractFactory\MysqlFactory();
 // $userLog = $mysqlFactory->userLog();
 // $userLog->setAdapter(new \Factory\Providers\Connectors\MysqlConnector('test', 'test'));
@@ -41,3 +40,22 @@ error_reporting(E_ALL);
 //     ->addDoors(2);
 
 // echo $house->getHouse();
+
+/* ADAPTER */
+// $log = new \Adapter\DbLog(new \Factory\Providers\Connectors\MongoConnector());
+// $log->write('Adapter log - mongo');
+
+// $log = new \Adapter\DbLog(new \Factory\Providers\Connectors\MysqlConnector('test', 'test'));
+// $log->write('Adapter log - mysql');
+
+/* DECORATOR */
+// $fish = "q1w2w3e4r4t5y6<b>bold</b>ololo";
+
+// $originalText = new \Decorator\TextInput();
+// echo $originalText->formatText($fish) . '<br/>';
+
+// $text = new \Decorator\PlainTextFilter($originalText);
+// echo $text->formatText($fish) . '<br/>';
+
+// $text = new \Decorator\NoDigitsFilter($originalText);
+// echo $text->formatText($fish) . '<br/>';

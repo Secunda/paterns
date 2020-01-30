@@ -3,7 +3,9 @@
         "psr-4": {
             "Factory\\": "factory/",
             "AbstractFactory\\": "abstractFactory/",
-            "Builder\\": "builder/"
+            "Builder\\": "builder/",
+            "Adapter\\": "adapter/",
+            "Decorator\\": "decorator/"
         }
     },
     "require": {
